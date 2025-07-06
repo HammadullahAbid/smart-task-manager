@@ -1,0 +1,67 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background-color: #f7f8fa;
+  color: #333;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.task-item.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+.task-item.completed {
+  background-color: #eafbea;
+  border-left: 5px solid green;
+  opacity: 0.85;
+  text-decoration: line-through;
+}
