@@ -37,7 +37,7 @@ This project is a Smart Task Manager application built as part of the Tech Pione
 
 
 ```bash
-git clone https://github.com/your-username/smart-task-manager.git
+git clone https://github.com/HammadullahAbid/smart-task-manager.git
 cd smart-task-manager
 npm install
 ```
